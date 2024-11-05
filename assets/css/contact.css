@@ -1,0 +1,132 @@
+/*  Contact Cards Start Here */
+.contact-card-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 10px;
+    overflow: hidden;
+}
+.contact-card-row .contact-card{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    height: max-content;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+.contact-card-row .contact-card:hover{
+    /* scale: 1.02; */
+    box-shadow: rgba(0, 0, 0, 0.452) 0px 3px 8px;
+}
+.contact-card-row .contact-card-image{
+    background-color: #0166fe;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+.contact-card-row .contact-card img{
+    width: 40px;
+}
+.contact-card-row .contact-card h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.contact-card-row .contact-card p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    text-align: center;
+    color: #585858;
+}
+/*  Contact Cards End Here */
+
+
+/* Get in Touch Section Starts Here */
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+    overflow: hidden;
+}
+.get-in-touch-left{
+    width: 46%;
+}
+.get-in-touch-left img{
+    width: 100%;
+    border-radius: 10px;
+}
+.get-in-touch-right{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.get-in-touch-right-top{
+    height: 55%;
+}
+.get-in-touch-right h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2.1rem;
+    margin: 0;
+}
+.get-in-touch-right p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    color: #585858;
+}
+.get-in-touch-right form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+.get-in-touch-right form input, textarea{
+    width: 100%;
+    padding: 0.65rem 1rem 0.72rem 1rem;
+    margin-bottom: 0.7rem;
+    outline: none;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+}
+.get-in-touch-right form textarea{
+    min-height: 7rem;
+    max-height: 15rem;
+}
+.get-in-touch-right form input:focus{
+    background-color: #ebebeb;
+}
+.get-in-touch-right form textarea:focus{
+    background-color: #ebebeb;
+}
+.get-in-touch-right form button{
+    background-color: #0166fe;
+    border: none;
+    padding: 0.6rem 0;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.2s ease;
+}
+.get-in-touch-right form button:hover{
+    background-color: red;
+}
+.get-in-touch-right .contact-map{
+    width: 100%;
+    height: 37.5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* Get in Touch Section Ends Here */
+
+footer{
+    margin-top: 12.3rem;
+}
