@@ -1,0 +1,514 @@
+/* Top Banner Starts */
+.top-banner{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.top-banner img{
+    width: 100%;
+}
+.top-banner .top-banner-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+.top-banner .top-banner-text h1{
+    font-size: 5rem;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 750;
+    z-index: 2;
+}
+.top-banner .banner-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgb(1,102,254);
+    background: linear-gradient(90deg, rgba(1,102,254,1) 0%, rgba(255,255,255,0) 67%);
+}
+/* Top Banner Ends */
+
+/* About Us Section Starts Here */
+.about-us{
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.about-us .about-image{
+    width: 46%;
+    overflow: hidden;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    position: relative;
+}
+.about-us .about-image img{
+    width: 100%;
+}
+.about-us .about-image #about-img-2{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1.2rem solid #fff;
+    border-right: 1.2rem solid #fff;
+    border-top-right-radius: 15px;
+}
+.about-us .about-content{
+    width: 48%;
+    overflow: hidden;
+}
+.about-us .about-content h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(transparent, transparent, #0166fe);
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    border-radius: 7px;
+    font-size: 2.1rem;
+}
+.about-us .about-content p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-top: 2.2rem;
+    font-size: 1.1rem;
+    color: #646464;
+    text-align: justify;
+}
+.about-us .about-content .ceo-text{
+    background-color: #f2f2f2d6;
+    padding: 1.5rem 3rem;
+    border-left: 7px solid #0166fe;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+.about-us .about-content .ceo-text p{
+    margin: 0;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+.about-us .about-content .about-content-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.about-us .about-content .content-foot-left{
+    width: 50%;
+}
+.about-us .about-content .content-foot-left p{
+    font-weight: 500;
+    margin: 0;
+    margin-top: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+.about-us .about-content .content-foot-left p i{
+    margin-right: 0.5rem;
+    color: #0166fe;
+}
+.about-us .about-content .content-foot-right{
+    width: 48%;
+}
+.about-us .about-content .content-foot-right img{
+    border-radius: 10px;
+    width: 80%;
+    float: right;
+}
+
+/* About Us Media Queries Start Here */
+@media screen and (max-width: 992px) {
+  .about-us{
+    flex-direction: column;
+    margin-top: 8rem;
+    padding: 6rem 1rem;
+  }
+  .about-us .about-image{
+    width: 100%;
+}
+.about-us .about-content{
+  width: 100%;
+  margin-top: 3rem;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .about-us{
+    margin-top: 5rem;
+    padding: 6rem 1rem 1rem 1rem;
+  }
+  .about-us .about-image{
+    height: 30rem;
+}
+.about-us .about-image #about-img-2{
+  border-top: 0.8rem solid #fff;
+  border-right: 0.8rem solid #fff;
+  border-top-right-radius: 10px;
+}
+.about-us .about-content{
+  margin-top: 1.8rem;
+}
+.about-us .about-content h5{
+  font-size: 1.3rem;
+}
+.about-us .about-content p{
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  text-align: start;
+}
+.about-us .about-content .ceo-text{
+  padding: 1rem;
+  border-left: 5px solid #0166fe;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+.about-us .about-content .ceo-text p{
+  font-size: 0.8rem;
+}
+.about-us .about-content .about-content-foot{
+  flex-direction: column-reverse;
+  margin-top: 1.3rem;
+}
+.about-us .about-content .content-foot-left{
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.about-us .about-content .content-foot-left p{
+  font-size: 0.8rem;
+}
+.about-us .about-content .content-foot-left p i{
+  margin-right: 0.3rem;
+}
+.about-us .about-content .content-foot-right{
+  width: 100%;
+}
+.about-us .about-content .content-foot-right img{
+  border-radius: 8px;
+  width: 100%;
+  float: left;
+}
+}
+/* About Us Section Ends Here */
+
+/* Why Choose Us Section Starts Here */
+.choose-us{
+    display: flex;
+    overflow: hidden;
+    padding: 1rem 0 5rem 0;
+    position: relative;
+  }
+  .choose-us-left{
+    width: 50%;
+    background-color: #000620;
+    padding: 4rem 3rem 0 7%;
+    border-top-right-radius: 2rem;
+  }
+  .choose-us-left h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(transparent, #0166fe);
+    color: #fff;
+    width: fit-content;
+    padding: 0.4rem 1rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .choose-us-left .card-row{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 3rem;
+  }
+  .choose-us-left .card-row .card{
+    width: 45%;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+  }
+  .choose-us-left .card-row .card .icon-img{
+    background-color: #fff;
+    padding: 0.8rem;
+    width: fit-content;
+    border-radius: 7px;
+    transition: all 0.2s ease;
+  }
+  .choose-us-left .card-row .card .icon-img:hover{
+    transform: translatex(5px);
+  }
+  .choose-us-left .card-row .card .icon-img img{
+    width: 3rem;
+    object-fit: contain;
+  }
+  .choose-us-left .card-row .card h2{
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  .choose-us-left .card-row .card p{
+    font-size: 0.97rem;
+    color: #c5c5c5;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .choose-us-right{
+    width: 50%;
+  }
+  .choose-us-right .right-image{
+    padding: 4rem 0 0 0;
+    position: relative;
+    top: 4rem;
+  }
+  .choose-us-right img{
+    width: 100%;
+    border-bottom-left-radius: 2rem;
+    /* object-fit: cover; */
+  }
+  
+  /* Why Choose Us Media Queries Start Here */
+  @media screen and (max-width: 992px) {
+    .choose-us{
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 1rem 0 3rem 0;
+    }
+    .choose-us-right{
+      width: 100%;
+    }
+    .choose-us-right .right-image{
+      padding: 0;
+      top: 0;
+    }
+    .choose-us-right img{
+      width: 100%;
+      height: 55rem;
+      border-bottom-left-radius: 0;
+    }
+  
+    .choose-us-left{
+      width: 100%;
+      background-color: #000620;
+      padding: 4rem 3rem 3rem 2rem;
+      border-bottom-right-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+      border-top-right-radius: 0;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .choose-us-right img{
+      height: 32rem;
+    }
+    .choose-us-left{
+      padding: 2rem 1rem 1rem 1rem;
+    }
+    .choose-us-left h5{
+      font-size: 1.1rem;
+      margin-bottom: 1.8rem;
+    }
+    .choose-us-left .card-row{
+      flex-direction: column;
+      margin-top: 0;
+    }
+    .choose-us-left .card-row .card{
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .choose-us-left .card-row .card .icon-img img{
+      width: 2.5rem;
+    }
+    .choose-us-left .card-row .card h2{
+      font-size: 1.2rem;
+    }
+    .choose-us-left .card-row .card p{
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+  }
+  /* Why Choose Us Section Ends Here */
+
+  /* Work Process Section Starts Here */
+.work {
+    padding: 4rem 0;
+    overflow: hidden;
+  }
+  .work-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-head h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(
+      transparent,
+      transparent,
+      #0166fe
+    );
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+  }
+  .work-head h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+  }
+  .work-head p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #6f6f6f;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .work-card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    position: relative;
+  }
+  .work-card-row .work-card {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 3rem 0 1rem 0;
+    overflow: hidden;
+  }
+  .work-card-row #work-card-2,
+  #work-card-4 {
+    padding: 8rem 0 1rem 0;
+  }
+  .work-card-row .work-card h5 {
+    background-color: #000;
+    width: max-content;
+    color: #fff;
+    padding: 7px 8px;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 1.7rem;
+    left: 24.4%;
+    z-index: 100;
+  }
+  .work-card-row .work-card .card-count {
+    top: 6.7rem;
+  }
+  .work-card-row .card-img {
+    background-color: #0166fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 1.3rem;
+    border-radius: 10px;
+  }
+  .work-card-row .card-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .work-card-row .work-card .card-content {
+    padding: 0 1rem;
+  }
+  .work-card-row .work-card h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .work-card-row .arrow {
+    position: absolute;
+  }
+  .work-card-row .arrow img {
+    filter: opacity(40%);
+  }
+  .work-card-row #arrow-1 {
+    left: 20%;
+    top: 3rem;
+  }
+  .work-card-row #arrow-2 {
+    left: 45.3%;
+    top: 7.5rem;
+  }
+  .work-card-row #arrow-3 {
+    left: 71%;
+    top: 3rem;
+  }
+  
+  /* Work Process Media Queries Start Here */
+  @media screen and (max-width: 576px) {
+    .work {
+      padding: 2.5rem 0;
+    }
+    .work-head h5 {
+      font-size: 1.1rem;
+    }
+    .work-head h1 {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .work-head p {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      width: 90%;
+    }
+    .work-card-row .arrow img {
+      display: none;
+    }
+    .work-card-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .work-card-row .work-card {
+      width: 100%;
+      padding: 2rem 0 1rem 0;
+    }
+    .work-card-row #work-card-2,
+    #work-card-4 {
+      padding: 2rem 0 1rem 0;
+    }
+    .work-card-row .work-card h5 {
+      font-size: 1.2rem;
+      top: 0.9rem;
+      left: 31.1%;
+    }
+    .work-card-row .work-card .card-count {
+      top: 0.9rem;
+    }
+    .work-card-row .card-img img {
+      width: 60px;
+      height: 60px;
+    }
+    .work-card-row .work-card h1 {
+      font-size: 1.2rem;
+      margin-top: 1.2rem;
+    }
+    .work-card-row .work-card p {
+      font-size: 0.8rem;
+    }
+  }
+  /* Work Process Section Ends Here */
