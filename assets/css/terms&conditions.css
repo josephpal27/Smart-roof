@@ -1,0 +1,24 @@
+/* Top Banner Starts Here */
+.top-banner-without-image{
+    padding: 6rem 0;
+    background: linear-gradient(90deg, rgba(1,102,254,1) 0%, rgba(255,255,255,0) 99%);
+}
+.top-banner-without-image h1{
+    color: #fff;
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 750;
+}
+/* Top Banner Ends Here */
+
+/* Terms Content Starts Here */
+.terms-content{
+    padding: 3rem 0;
+}
+.terms-content p{
+    font-size: 0.95rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+}
+/* Terms Content Ends Here */

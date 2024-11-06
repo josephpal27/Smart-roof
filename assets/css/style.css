@@ -264,7 +264,7 @@ header a {
   height: 100%;
   position: absolute;
   top: 0;
-  background: rgb(1,102,254);
+  /* background: rgb(1,102,254); */
   background: linear-gradient(90deg, rgba(1,102,254,1) 0%, rgba(255,255,255,0) 67%);
 }
 /* Top Banner for All Pages Ends */
