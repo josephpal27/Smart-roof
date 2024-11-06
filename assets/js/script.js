@@ -33,5 +33,24 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// -------------------------------------------------------------------------------------------------------------------------------------
+
+// Functionality for Gallery Page Image Hover
+const galleryImgBoxes = document.querySelectorAll('.gallery-img');
+
+// Loop through each gallery image
+galleryImgBoxes.forEach(box => {
+    const layer = box.querySelector('.layer');
+
+    // On mouse enter, slide the layer up
+    box.addEventListener('mouseenter', () => {
+        layer.style.top = '0'; // Slide the layer to the top
+    });
+
+    // On mouse leave, slide the layer back down
+    box.addEventListener('mouseleave', () => {
+        layer.style.top = '100%'; // Reset the layer's position
+    });
+});
 
 // -------------------------------------------------------------------------------------------------------------------------------------
