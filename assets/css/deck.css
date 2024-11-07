@@ -1,0 +1,23 @@
+.technical-desc h5 span{
+    width: 40.5%;
+}
+.technical-desc h5 .sl-no{
+    width: 19%;
+}
+.technical-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+#right-img-2{
+    margin-top: 3.2rem;
+}
+
+/* Applications */
+.deck-applications h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2rem;
+}
