@@ -1,0 +1,257 @@
+/* Services Cards Section Starts */
+.our-services-bg{
+    padding: 0 0 1rem 0;
+}
+.our-services{
+    padding: 5rem 0 4rem 0;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.our-services .card{
+    width: 32%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    overflow: hidden;
+    padding-bottom: 2.2rem;
+    margin-bottom: 1.7rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.service-card-img{
+    overflow: hidden;
+    height: 17rem;
+}
+.service-card-img img{
+    width: 100%;
+    transition: all 1s ease;
+}
+.our-services .card:hover img{
+    scale: 1.2;
+}
+.our-services .card h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #022b48;
+    margin-top: 1.7rem;
+}
+.our-services .card p{
+    font-size: 1.2rem;
+    color: #585858;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0.8rem;
+    padding: 0 0.9rem;
+}
+.our-services .card button{
+    width: max-content;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 3px solid #0166fe;
+    color: #0166fe;
+    background-color: #fff;
+    padding: 0.7rem 2.3rem;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+.our-services .card button:hover{
+    color: #fff;
+    background-color: #0166fe;
+}
+
+@media screen and (max-width: 576px) {
+    .our-services{
+        padding: 3rem 0.6rem;
+        flex-direction: column;
+    }
+    .our-services .card{
+        width: 100%;
+        padding-bottom: 2rem;
+        margin-bottom: 1.3rem;
+    }
+    .service-card-img{
+        height: auto;
+    }
+    .our-services .card h3{
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+    }
+    .our-services .card p{
+        font-size: 1rem;
+        margin-top: 0.3rem;
+        padding: 0 0.5rem;
+    }
+    .our-services .card button{
+        font-size: 0.9rem;
+        padding: 0.5rem 1.8rem;
+        margin-top: 0.5rem;
+    }
+}
+/* Services Cards Section Ends */
+
+
+/* Modal Section Starts Here */
+.modal{
+    width: 100%;
+    height: 0;
+    display: flex;
+    background-color: #efefef;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 1;
+    overflow: hidden;
+    transition: all 0.7s ease;
+}
+.modal-left{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s ease;
+    padding: 0 1.2rem 0 2.5rem;
+}
+
+.modal-left h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #0166fe;
+    margin-bottom: 0.8rem;
+}
+.modal-left p{
+    margin: 0;
+    margin-bottom: 0.3rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.05rem;
+}
+
+.modal-right i{
+   color: #585858;
+   font-size: 2.3rem;
+   transition: all 0.2s ease;
+   cursor: pointer;
+   margin-top: 5rem;
+}
+.modal-right i:hover{
+   color: rgb(233, 1, 1);
+}
+
+.modal-right{
+    width: 35%;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-right img{
+    width: 100%;
+    /* height: 100%;
+    object-fit: contain; */
+}
+
+@media screen and (max-width: 576px) {
+    .modal{
+        flex-direction: column;
+    }
+    .modal-left{
+        width: 100%;
+        padding: 1.1rem 0.5rem 0 0.5rem;
+    }
+    .modal-left h2{
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .modal-left p{
+        margin-bottom: 0.3rem;
+        font-size: 0.85rem;
+    }
+    .modal-right{
+        width: 100%;
+        padding: 0;
+    }
+    .modal-right img{
+        display: none;
+    }
+    .modal-right i{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+     }
+}
+/* Modal Section Ends Here */
+
+/* Accessories Content Head Starts Here */
+.content-head{
+    padding: 0 0 2rem 0;
+    overflow: hidden;
+}
+.content-head h1{
+    font-size: 2.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.content-head p{
+    font-size: 1rem;
+    color: #5a5a5a;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1rem;
+}
+/* Accessories Content Head Ends Here */
+
+/* Features Cards Start Here */
+.feature-cards-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding: 1rem 0;
+}
+.feature-cards-row .feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 1.7rem;
+    /* transition: all 0.2s ease; */
+    overflow: hidden;
+}
+.feature-cards-row .feature-card:hover{
+    transform: translateY(-12px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.feature-cards-row .feature-card img{
+    width: 70px;
+}
+.feature-cards-row .feature-card h3{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.feature-cards-row .feature-card p{
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #5a5a5a;
+}
+/* Features Cards End Here */
+
+footer{
+    margin-top: 12.5rem;
+}
