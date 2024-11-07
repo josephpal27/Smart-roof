@@ -1,6 +1,7 @@
 /* Profilia Content Head Starts Here */
 .content-head{
-    padding: 4rem 0;
+    padding: 4rem 0 2rem 0;
+    overflow: hidden;
 }
 .content-head h1{
     font-size: 2.3rem;
@@ -16,3 +17,126 @@
     margin-top: 1rem;
 }
 /* Profilia Content Head Ends Here */
+
+/* Features Cards Start Here */
+.feature-cards-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding: 1rem 0;
+}
+.feature-cards-row .feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 1.7rem;
+    /* transition: all 0.2s ease; */
+    overflow: hidden;
+}
+.feature-cards-row .feature-card:hover{
+    transform: translateY(-12px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.feature-cards-row .feature-card img{
+    width: 70px;
+}
+.feature-cards-row .feature-card h3{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.feature-cards-row .feature-card p{
+    font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #5a5a5a;
+}
+/* Features Cards End Here */
+
+/* Applications Section Starts Here */
+.applications{
+    padding: 4rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.application-left{
+    width: 49%;
+}
+.application-head h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.application-head p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #5a5a5a;
+}
+.application-desc p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+.application-desc p span{
+    font-weight: 700;
+}
+.application-desc p i{
+    background-color: #0166fe;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.application-right{
+    width: 48%;
+}
+/* Applications Section Ends Here */
+
+/* Technical Specifications Section Start Here */
+.technical{
+    padding: 4rem 0 3rem 0;
+}
+.technical-desc h5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.technical-desc h5 i{
+    background-color: #0166fe;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 3px;
+    margin-right: 8px;
+    font-size: 1rem;
+}
+.technical-desc h5 span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.technical-right{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.technical-right img{
+    width: 100%;
+}
+/* Technical Specifications Section End Here */
+
+footer{
+    margin-top: 12rem;
+}
