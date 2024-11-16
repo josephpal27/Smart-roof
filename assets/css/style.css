@@ -35,7 +35,7 @@ header a {
 }
 @media screen and (max-width: 576px) {
   header {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     font-weight: 600;
   }
   header i {
@@ -175,13 +175,9 @@ header a {
 /* Banner Starts */
 .banner{
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
-/* .banner img{
-    width: 100%;
-    height: 90vh;
-} */
 
 .banner-text-bg{
   position: absolute;
@@ -231,6 +227,31 @@ header a {
         height: auto;
     }
 }
+@media screen and (max-width: 576px) {
+  .banner-text-right img{
+    width: 60%;
+    bottom: -14.3rem;
+    left: 20%;
+  }
+  .banner-text{
+    flex-direction: column;
+    min-height: auto;
+  }
+  .banner-text-left{
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .banner-text-left h1{
+    font-size: 1.3rem;
+  }
+  .banner-text-left p{
+    font-size: 0.65rem;
+    margin-top: 0;
+  }
+  .banner-text-right{
+    width: 100%;
+  }
+}
 /* Banner Ends */
 
 /* ------------------------------- */
@@ -266,6 +287,16 @@ header a {
   top: 0;
   /* background: rgb(1,102,254); */
   background: linear-gradient(90deg, rgba(1,102,254,1) 0%, rgba(255,255,255,0) 67%);
+}
+
+@media screen and (max-width: 576px) {
+  .top-banner img{
+    height: 20vh;
+  }
+  .top-banner .top-banner-text h1{
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+  }
 }
 /* Top Banner for All Pages Ends */
 /* ------------------------------- */
@@ -311,6 +342,27 @@ header a {
 .banner-card-container .banner-card button:hover{
   background-color: red;
   border: 1px solid red;
+}
+
+@media screen and (max-width: 576px) {
+  .banner-card-container{
+    height: 19rem;
+  }
+  .banner-card-container .banner-card{
+    width: 95%;
+    height: auto;
+    padding: 1.5rem 0 2rem 0;
+    top: 10.5rem;
+    right: 2.5%;
+  }
+  .banner-card-container .banner-card h2{
+    font-size: 1.7rem;
+  }
+  .banner-card-container .banner-card button{
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    margin-top: 0.8rem;
+  }
 }
 /* Banner Card Ends */
 
@@ -474,29 +526,29 @@ header a {
       margin-left: 0;
   }
   .image-para-left .labal-text{
-      bottom: 4rem;
+      bottom: 3rem;
       padding: 1rem 0 0.7rem 0;
       width: 97%;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
   }
   .image-para-left .labal-shape{
-      bottom: 2.5rem;
+      bottom: 1.5rem;
   }
   .image-para-left .labal-text h3{
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       padding-left: 2.5rem;
   }
   .image-para-right{
       width: 100%;
   }
   .image-para-right h1{
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       margin: 2rem 0 1.2rem 0;
   }
   .image-para-right p{
       font-size: 1rem;
-      margin-top: 0.5rem;
+      margin-top: 0.3rem;
   }
   .image-para-right button{
       margin-top: 0.7rem;
@@ -605,6 +657,68 @@ header a {
 .popular-product-details .arrow i:hover{
   background-color: red;
   transform: translateX(7px);
+}
+
+@media screen and (max-width: 576px) {
+  .popular-products-top{
+    flex-direction: column;
+  }
+  .popular-products-top-content{
+    width: 100%;
+  }
+  .popular-products-bg{
+    padding: 1.5rem 0 2.5rem 0;
+  }
+  .popular-products-top-content h3{
+    font-size: 1.7rem;
+  }
+  .popular-products-top-content p{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  .popular-products-top-btn button{
+    font-size: 0.9rem;
+    padding: 0.5rem 1.1rem;
+  }
+  .popular-products-bottom{
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .popular-products-bottom-left{
+    width: 100%;
+  }
+  .popular-products-bottom-left img{
+    width: 100%;
+  }
+  .popular-products-bottom-right{
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .popular-product-details{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .popular-product-details .product-image{
+    width: 60px;
+    height: 60px;
+  }
+  .popular-product-details .product-image img{
+    width: 40px;
+  }
+  .popular-product-details .product-desc{
+    width: 65%;
+  }
+  .popular-product-details .product-desc h4{
+    font-size: 1.1rem;
+    margin-top: 0.9rem;
+  }
+  .popular-product-details .product-desc p{
+    font-size: 0.8rem;
+    margin-top: -3px;
+  }
+  .popular-product-details .arrow i{
+    padding: 0.8rem 0.7rem;
+  }
 }
 /* Popular Products Section Ends Here */
 
@@ -752,12 +866,85 @@ header a {
   height: 100%;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  .story{
+    padding: 2.5rem 0.5rem;
+    flex-direction: column;
+  }
+  .story-left{
+    width: 100%;
+  }
+  .story-left-top h2{
+    font-size: 1.5rem;
+  }
+  .story-left-top p{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  .story-left-bottom{
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .story-left-bottom .left-box{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .story-left-bottom .img-box{
+    width: 55px;
+    height: 55px;
+  }
+  .story-left-bottom .left-box img{
+    width: 40px;
+  }
+  .story-left-bottom .left-box h4{
+    font-size: 1.3rem;
+  }
+  .story-left-bottom .left-box p{
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+  }
+  
+  .story-right{
+    width: 100%;
+    flex-direction: column;
+  }
+  .story-right-one{
+    width: 100%;
+  }
+  .story-right-one .story-right-img{
+    height: auto;
+    width: 100%;
+  }
+  .story-right-box{
+    height: auto;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+    margin-top: 1rem;
+  }
+  .story-right-box h3{
+    font-size: 1.3rem;
+  }
+  .story-right-box p{
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+  }
+  .story-right-box button{
+    padding: 0.4rem 0.8rem;
+    margin-top: 0;
+    font-size: 0.8rem;
+  }
+  .story-right-two{
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
 /* Story Section Ends Here */
 
 
 /* Footer Section Starts Here */
 footer {
-  /* background-color: rgb(19, 18, 48); */
   background-color: #0c0a1f;
   padding: 3rem 0 1rem 0;
   position: relative;
@@ -788,7 +975,6 @@ footer .footer .foot-left .left-2 {
 }
 
 footer .footer .foot-left .foot-card {
-  /* background-color: rgb(15, 13, 27); */
   background-color: #0d0a24;
   position: absolute;
   bottom: 2rem;

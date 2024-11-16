@@ -9,6 +9,15 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 750;
 }
+
+@media screen and (max-width: 576px) {
+    .top-banner-without-image{
+        padding: 3.2rem 0 2.8rem 0;
+    }
+    .top-banner-without-image h1{
+        font-size: 1.5rem;
+    }
+}
 /* Top Banner Ends Here */
 
 /* Terms Content Starts Here */
@@ -21,5 +30,15 @@
     font-weight: 500;
     line-height: 1.75;
     color: #000;
+}
+
+@media screen and (max-width: 576px) {
+    .terms-content{
+        padding: 2rem 0.7rem;
+    }
+    .terms-content p{
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
 }
 /* Terms Content Ends Here */

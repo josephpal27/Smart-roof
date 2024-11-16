@@ -105,12 +105,9 @@
 
 @media screen and (max-width: 576px) {
   .about-us{
-    margin-top: 5rem;
-    padding: 6rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
   }
-  .about-us .about-image{
-    height: 30rem;
-}
 .about-us .about-image #about-img-2{
   border-top: 0.8rem solid #fff;
   border-right: 0.8rem solid #fff;
@@ -425,7 +422,7 @@
   /* Work Process Media Queries Start Here */
   @media screen and (max-width: 576px) {
     .work {
-      padding: 2.5rem 0;
+      padding: 0.5rem 0;
     }
     .work-head h5 {
       font-size: 1.1rem;
