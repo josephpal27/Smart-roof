@@ -129,6 +129,13 @@
 }
 .application-right{
     width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.application-right img{
+    width: 100%;
 }
 
 @media screen and (max-width: 576px) {
