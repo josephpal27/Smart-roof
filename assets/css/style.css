@@ -252,6 +252,17 @@ header a {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  .banner-text-right img{
+    bottom: -17rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 576px) {
+  .banner-text-right img{
+    bottom: -18rem;
+  }
+}
 /* Banner Ends */
 
 /* ------------------------------- */
@@ -362,6 +373,22 @@ header a {
     font-size: 0.9rem;
     padding: 0.4rem 0.8rem;
     margin-top: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  .banner-card-container .banner-card{
+    top: 12rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 490px) {
+  .banner-card-container .banner-card{
+    top: 11rem;
+  }
+}
+@media screen and (min-width: 490px) and (max-width: 576px) {
+  .banner-card-container .banner-card{
+    top: 10rem;
   }
 }
 /* Banner Card Ends */
