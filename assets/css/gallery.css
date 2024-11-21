@@ -80,8 +80,19 @@
 } */
 
 @media screen and (max-width: 576px) {
+    .gallery{
+        padding: 2rem 0.5rem;
+    }
+    .gallery-content h2{
+        font-size: 1.7rem;
+    }
+    .gallery-content p{
+        font-size: 0.9rem;
+        max-width: 100%;
+        margin-left: 0;
+    }
     .gallery-images{
-        padding: 3.5rem 0.6rem;
+        padding: 1.5rem 0 3.5rem 0;
         flex-direction: column;
     }
     .side-images,
@@ -211,6 +222,7 @@
 
   @media screen and (max-width: 576px) {
     .faq{
+        margin-top: -2.5rem;
         padding: 0 0.6rem 2rem 0.6rem;
         flex-direction: column;
     }
