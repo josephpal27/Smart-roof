@@ -1,9 +1,20 @@
+/* Content Head Starts Here */
+.content-head{
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 576px) {
+    .content-head{
+        margin-top: 1.5rem !important;
+    }
+}
+
 /* Services Cards Section Starts */
 .our-services-bg{
     padding: 0 0 1rem 0;
 }
 .our-services{
-    padding: 5rem 0 4rem 0;
+    padding: 2.5rem 0 0 0;
     display: flex;
     /* justify-content: space-between; */
     justify-content: center;
@@ -48,14 +59,14 @@
 .our-services .card button{
     width: max-content;
     align-self: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     border: 3px solid #0166fe;
     color: #0166fe;
     background-color: #fff;
-    padding: 0.7rem 2.3rem;
+    padding: 0.2rem 0.8rem;
     margin-top: 0.8rem;
-    border-radius: 5px;
+    border-radius: 25px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     transition: all 0.2s ease;
 }
@@ -280,4 +291,10 @@
 
 footer{
     margin-top: 12.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    footer{
+        margin-top: 7rem;
+    }
 }
