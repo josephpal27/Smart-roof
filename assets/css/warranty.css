@@ -1,0 +1,154 @@
+.terms-content h2{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+
+.warranty{
+    background-color: rgb(204, 231, 255);
+    padding: 3rem 0;
+    border-radius: 10px;
+    margin-top: -1rem;
+}
+.warranty form{
+    width: 90%;
+    margin-left: 5%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.warranty form .input-box{
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+.warranty form .input-box input,
+.warranty form .multiple-input .box input,
+.warranty form .multiple-input .box select{
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin-top: -0.3rem;
+    box-shadow: rgba(62, 155, 255, 0) 0px 3px 5px;
+    border-radius: 5px;
+}
+.warranty form .input-box input:focus,
+.warranty form .multiple-input .box input:focus,
+.warranty form .multiple-input .box select:focus{
+    box-shadow: rgba(62, 155, 255, 0.39) 0px 3px 5px;
+}
+.warranty form .multiple-input .box select{
+    padding: 0.75rem 1rem;
+}
+.warranty form .input-box input p{
+    margin: 0;
+}
+.warranty form span{
+    color: red;
+}
+
+.warranty form .multiple-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.warranty form .multiple-input .box{
+    width: 32%;
+    margin-bottom: 1.4rem;
+}
+.warranty form .multiple-input .box select{
+    color: rgb(99, 99, 99);
+}
+.warranty form .multiple-input .box input[type="date"]{
+    color: rgb(99, 99, 99);
+}
+.warranty form input[type="file"]{
+    background-color: #fff;
+}
+
+#checkbox{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+#checkbox input[type="checkbox"]{
+    accent-color: blue;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+#checkbox p{
+    padding-top: 8px;
+}
+
+.warranty .btn-box{
+    display: flex;
+    justify-content: center;
+}
+.warranty form button{
+    background-color: #0166fe;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.warranty form button:hover{
+    background-color: #005ae1;
+}
+
+
+@media screen and (max-width: 576px) {
+    .terms-content h2{
+        font-size: 1.2rem;
+        margin-top: -0.5rem;
+    }
+    .warranty{
+        padding: 1.5rem 0;
+        width: 96%;
+        margin-left: 2%;
+    }
+    .warranty form{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .warranty form p{
+        font-size: 0.9rem;
+    }
+    .warranty form .input-box{
+        margin-bottom: 0.8rem;
+    }
+    .warranty form .input-box input,
+    .warranty form .multiple-input .box input,
+    .warranty form .multiple-input .box select{
+        width: 100%;
+        padding: 0.6rem;
+        font-size: 0.8rem;
+        margin-top: -0.4rem;
+    }
+    .warranty form .multiple-input{
+        flex-direction: column;
+    }
+    .warranty form .multiple-input .box{
+        width: 100%;
+        margin-bottom: 0.8rem;
+    }
+
+    #checkbox{
+        margin-top: 1rem;
+    }
+    #checkbox input[type="checkbox"]{
+        width: 15px;
+        height: 15px;
+    }
+    #checkbox p{
+        padding-top: 13px;
+    }
+    .warranty form button{
+        padding: 0.4rem 2.5rem;
+        font-size: 1rem;
+    }
+}
