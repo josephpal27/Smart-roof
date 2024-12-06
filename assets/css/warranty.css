@@ -37,7 +37,7 @@
 .warranty form .input-box input:focus,
 .warranty form .multiple-input .box input:focus,
 .warranty form .multiple-input .box select:focus{
-    box-shadow: rgba(62, 155, 255, 0.39) 0px 3px 5px;
+    box-shadow: rgba(62, 155, 255, 0.5) 0px 3px 5px;
 }
 .warranty form .multiple-input .box select{
     padding: 0.75rem 1rem;
