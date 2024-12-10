@@ -54,3 +54,12 @@ galleryImgBoxes.forEach(box => {
 });
 
 // -------------------------------------------------------------------------------------------------------------------------------------
+
+
+// Functionality For Warranty Page Checkbox
+let checkbox = document.querySelector('.warranty #checkbox input');
+    checkbox.addEventListener('click', () => {
+        if (checkbox.checked) {
+            window.open('assets/pdf/T&C.pdf', '_blank');
+        }
+    });

@@ -90,8 +90,8 @@
 
                 <!-- Right side: Contact Info and Button -->
                 <div class="d-flex align-items-center justify-content-between mt-2 mt-lg-0">
-                    <span class="contact-number me-3"><i class="fa-solid fa-phone-volume"></i> +91 8822844972</span>
-                    <a href="warranty.html"><button class="nav-btn">Warranty</button></a>
+                    <span class="contact-number me-3"><i class="fa-solid fa-phone-volume"></i> +91 7099078777</span>
+                    <a href="warranty.html"><button class="nav-btn">Warranty Ragistration</button></a>
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
     <!-- Top Banner Starts -->
     <section class="top-banner-without-image">
         <div class="top-banner-text container-xl">
-            <h1 data-aos="fade-up" data-aos-duration="1200">Warranty</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1200">Warranty Ragistration</h1>
         </div>
     </section>
     <!-- Top Banner Ends -->
@@ -110,7 +110,7 @@
 
     <!-- Terms Content Starts Here -->
     <section class="terms-content container-xl">
-      <h2 data-aos="fade" data-aos-duration="1000">Customer Warranty Form</h2>
+      <h2 data-aos="fade" data-aos-duration="1000">Customer Warranty Ragistration Form</h2>
     </section>
     <!-- Terms Content Ends Here -->
 
@@ -132,12 +132,12 @@
             </div>
             <div class="multiple-input">
                 <div class="box">
-                    <p>Dealer <span>*</span></p>
-                    <input type="text" name="dealer" placeholder="Enter Dealer" required>
+                    <p>Dealer Name <span>*</span></p>
+                    <input type="text" name="dealer" placeholder="Enter Dealer Name" required>
                 </div>
                 <div class="box">
                     <p>Select State <span>*</span></p>
-                    <select name="state">
+                    <select name="state" required>
                         <option value="" disabled selected>Select State</option>
                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -184,8 +184,14 @@
             </div>
             <div class="multiple-input">
                 <div class="box">
-                    <p>Product <span>*</span></p>
-                    <input type="text" name="product" placeholder="Enter Product Name" required>
+                    <p>Select Product <span>*</span></p>
+                    <!-- <input type="text" name="product" placeholder="Enter Product Name" required> -->
+                    <select name="product" required>
+                        <option value="" disabled selected>Select Product</option>
+                        <option value="Profilia">Profilia</option>
+                        <option value="Clad">Clad</option>
+                        <option value="Tilos">Tilos</option>
+                    </select>
                 </div>
                 <div class="box">
                     <p>Serial Number <span>*</span></p>
