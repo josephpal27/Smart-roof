@@ -156,10 +156,19 @@ header a {
     max-height: 70px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1093px) {
+@media screen and (min-width: 990px) and (max-width: 1124px) {
   .navbar-nav .nav-link {
     font-size: 0.8rem !important;
     padding: 0.5rem 0.8rem !important;
+  }
+  #nav-right-section span{
+    margin-right: 0.5rem !important;
+    font-size: 1rem !important;
+  }
+  #nav-right-section button{
+    margin: 0 0 0 0.3rem;
+    padding: 0.7rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 992px) {
@@ -168,6 +177,14 @@ header a {
   }
   .navbar-brand img {
     max-height: 65px;
+  }
+  #nav-right-section{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+  #nav-right-section button{
+    margin: 0.7rem 0 0.5rem 0.9rem;
   }
 }
 /* Navbar Ends */
