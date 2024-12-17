@@ -156,3 +156,26 @@
         font-size: 1rem;
     }
 }
+
+/* Modal Starts */
+.modal-content-box{
+    font-size: 0.9rem;
+}
+.modal-content-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+.modal-content-box th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.modal-content-box th {
+    background-color: #f2f2f2;
+}
+.modal-footer button{
+    background-color: #0166fe !important;
+    font-weight: 600;
+}
+/* Modal Ends */

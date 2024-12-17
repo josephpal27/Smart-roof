@@ -57,9 +57,21 @@ galleryImgBoxes.forEach(box => {
 
 
 // Functionality For Warranty Page Checkbox
-let checkbox = document.querySelector('.warranty #checkbox input');
-    checkbox.addEventListener('click', () => {
-        if (checkbox.checked) {
-            window.open('assets/pdf/T&C.pdf', '_blank');
-        }
-    });
+document.addEventListener("DOMContentLoaded", function() {
+  const termsCheckbox = document.getElementById("terms-checkbox");
+  const modal = new bootstrap.Modal(document.getElementById("termsModal"));
+  const agreeButton = document.getElementById("agree-btn");
+
+  // Prevent checkbox toggle and open the modal
+  termsCheckbox.addEventListener("click", function(e) {
+      if (termsCheckbox.checked) { 
+          e.preventDefault(); // Stop the checkbox from toggling immediately
+          modal.show(); // Show the modal
+      }
+  });
+
+  // On "I Agree" button click, check the checkbox
+  agreeButton.addEventListener("click", function() {
+      termsCheckbox.checked = true;
+  });
+});

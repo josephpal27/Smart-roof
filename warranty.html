@@ -110,7 +110,7 @@
 
     <!-- Terms Content Starts Here -->
     <section class="terms-content container-xl">
-      <h2 data-aos="fade" data-aos-duration="1000">Customer Warranty Registration Form</h2>
+        <h2 data-aos="fade" data-aos-duration="1000">Customer Warranty Registration Form</h2>
     </section>
     <!-- Terms Content Ends Here -->
 
@@ -144,8 +144,8 @@
                         <option value="Meghalaya">Meghalaya</option>
                         <option value="Manipur">Manipur</option>
                         <option value="Mizoram">Mizoram</option>
-                        <option value="Nagaland ">Nagaland</option>
-                        <option value="Tripura ">Tripura</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Tripura">Tripura</option>
                     </select>
                 </div>
                 <div class="box">
@@ -173,14 +173,167 @@
                 <input type="file" name="invoice" required>
             </div>
             <div class="input-box" id="checkbox">
-                <span><input type="checkbox" name="check" required></span> <p>I accept Terms & Conditions</p>
+                <span>
+                    <!-- Checkbox to open modal -->
+                    <input type="checkbox" id="terms-checkbox" name="check">
+                </span>
+                <p>I accept Terms & Conditions</p>
             </div>
             <div class="btn-box">
                 <button type="submit">SUBMIT</button>
             </div>
         </form>
-    </section> 
+    </section>
     <!-- Warranty Form Ends Here -->
+
+    <!-- T&C Modal Starts Here -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termsModalLabel">Terms & Conditions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Content -->
+                    <div class="modal-content-box">
+                        <p><b>“SMARTROOF” Colour Coated Roofing Sheets Limited Warranty</b></p>
+                        <p><b>Warranty Overview</b></p>
+                        <p>This warranty covers SMARTROOF Color Coated Roofing Sheets purchased from authorized distributors/retailers having a valid dealer certificate. It provides protection against perforation due to manufacturing defects under normal use for a period of 7 years from the date of manufacture. To get the warranty facilitation, one has to visit the company’s website and register themselves by filling the required details in the form. The registration must be done within30daysfrom the date of purchase of the material to avail warranty on the product. No warranty will be applicable by any means if the registration is not done under 30 days. To claim warranty, the buyer must comply with all specified warranty terms and conditions given below. Please note there is no claim whatsoever if any of the below terms and conditions are not in order.</p>
+                    </div>
+                    <div class="modal-content-box">
+                        <p><b>1. Authorized Purchase:</b></p>
+                        <p>Ensure the product is marked as “SMART ROOF” X.XX mm (X = thickness). Only products with this marking from authorized sellers are eligible. The tax invoice is compulsory and needs to be submitted with claim request by end consumer. If there is no tax invoice found by the end consumer, no claim will be entertained whatsoever. Warranty has been launched for three products ranges, i.e.Profile,Tiles,Linear only, and applicable on sales from 1stNovember 2024 only, no prior sales will be entertained.</p>
+                        <p>2. <b>Installation:</b> The sheets must be processed and installed as roofing/cladding within three months of purchase by authorized dealers, failure of which will be rejected for any sort of claim.</p>
+                        <p>3. <b>Maintenance Guidelines</b></p>
+                        <p><b>Annual Cleaning:</b> Areas not exposed to rain require at least two washings per year with fresh water to maintain quality.</p>
+                        <p><b>Follow All Do’s and Don’ts </b>(listed below).</p>
+                    </div>
+                    <div class="modal-content-box">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>DO’S</th>
+                                    <th>DON’TS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Use PPE while handling &amp; installing</td>
+                                    <td>Product should not come in contact with Wet surface</td>
+                                </tr>
+                                <tr>
+                                    <td>Keep Production flat, dry &amp; Ventilated areas</td>
+                                    <td>Product should not come in contact with cement</td>
+                                </tr>
+                                <tr>
+                                    <td>The Product must be lifted with Nylon ropes</td>
+                                    <td>Product should not come in contact with metal filings</td>
+                                </tr>
+                                <tr>
+                                    <td>Ensure zero water seepage during storage</td>
+                                    <td>Product should not be kept on floor directly</td>
+                                </tr>
+                                <tr>
+                                    <td>Avoid metal to metal contact</td>
+                                    <td>Do not allow dirt to be accumulated on Product</td>
+                                </tr>
+                                <tr>
+                                    <td>Good quality fasteners to be used</td>
+                                    <td>Do not slide sheets on rough surface</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-content-box">
+                        <p>4. <b>Geographic Limitation</b></p>
+                        <p>Coverage is limited to roofing installations within North East Indian territory only.</p>
+                    </div>
+                    <div class="modal-content-box">
+                        <p><b>Warranty Exclusions</b></p>
+                        <p>The warranty does <b>not</b> cover:</p>
+                        <ul>
+                            <li><b>Water Damage:</b> Includes damage due to condensation, improper storage, or handling before or during installation at dealer or customer site. There is no claim if guard film is not removed immediately after installation and water droplets are formed inside which may cause the colour coat to come out.</li>
+                            <li><b>Industrial Exposure: Areas </b>exposed to industrial or corrosive fumes, ash, cement dust, or animal waste before, during or after use.</li>
+                            <li><b>Natural Aging:</b> Includes reduction in paint gloss and color changes over time.</li>
+                            <li><b>Physical Damage:</b> Scratching, abrasion, impact, or debris accumulation.</li>
+                            <li><b>Fastener/Sealant Deterioration:</b> Includes areas in contact with improper fasteners, sealants, or metallic contact with lead/copper. There is no claim if any substandard quality of screws is used which may lead to rust around it and then spread to roof sheets. Screws must be of high quality epoxy coating with washer.</li>
+                            <li><b>Specific Environments:</b> Coastal areas or areas subjected to saltwater/marine atmospheres. There is no claim if the sheets are exposed to heavy smoke and pollution in industries or godowns which may damage the sheets eventually. The warranty does not cover the product formed below 18 Degree Celsius temperature.</li>
+                            <li><b>Back coat:</b> There is no warranty on the back side of the coated product.</li>
+                            <li><b>Thickness:</b> There is no warranty on thickness variation on sheets. All roofing sheets are manufactured as per BIS standard with negative/positive tolerance allowed.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-content-box">
+                        <p><b>Additional Excluded Situations</b></p>
+                        <p>The warranty will <b>not</b> apply under the following conditions:</p>
+                        <ul>
+                            <li><b>Roofing Structure:</b> Roof bends less than 4T for any sheet thickness or sections sloped more than 75° from vertical. The steel structure must be painted with primer and top quality paint prior to installation in order to protect the sheets from rusting.</li>
+                            <li><b>Improper Handling:</b> Mechanical, chemical or any other damage during shipping, storage, forming fabrication or during or after erection and installation.</li>
+                            <li><b>Drainage Issues:</b> Failure to provide proper drainage of water including internal condensation o removal of debris on sheet surfaces.</li>
+                            <li><b>Contact with Corrosive Products:</b> Including green or wet lumber, or insulation causing dampness or corrosion. There is no claim if damage or perforation is caused by insulation material.</li>
+                            <li><b>Animal Waste Contact:</b> Includes contact with animal waste or its by-products.</li>
+                            <li><b>Abnormal Environments:</b> Installations near chemical, industrial, or coastal areas, and other aggressive environments such as humid area, tropical area, the place within one mile distance from the seashore, the vicinity of chemical or iron industries etc.</li>
+                            <li><b>Force Majeure Events:</b> Any damage caused by natural disasters, fire, flood, explosions, or similar incidents.</li>
+                            <li><b>Misuse or Negligence:</b> Improper storage, handling, improper transportation or failure to comply with care instructions by buyer.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-content-box">
+                        <p><b>Disclaimer of Other Warranties</b></p>
+                        <p>Except as expressly stated in this Warranty Certificate, SMART ROOF disclaims, and the Buyer waives, any and all other warranties, whether express or implied, oral or written. This includes, but is not limited to, implied warranties of merchantability or fitness for a particular purpose.</p>
+                        <p>This Warranty Certificate outlines the full extent of the Company’s obligations, and no other warranties are applicable.</p>
+                    </div>
+                    <div class="modal-content-box">
+                        <p><b>Limitation of Remedies and Liability</b></p>
+                        <p>The Buyer’s sole and exclusive remedy under this warranty is limited to the repair or replacement of the defective portiononly and not the whole portion of the warranted product.TheBuyeragreesthatnootherremedies, liabilities, or claims shall be available, including but not limited to indirect, special, punitive, or consequential damages (such as loss of use, business, profits, sales ,injury to person or property ,or any other incidental losses). All other remedies are expressly waived and excluded. The warranty is applicable for retail segment sales only and not for Project sales.</p>
+                        <p>The maximum liability of the Company, in any circumstance, shall not exceed the invoice value of the product. All costs related to dismantling, installation, reinstallation, and transportation are the Buyer’s responsibility, and the Company holds no obligation for these expenses.</p>
+                    </div>
+                    <div class="modal-content-box">
+                        <p><b>Claims Procedure</b></p>
+                        <p>In the event of a warranty claim, the Buyer must provide evidence that the failure was due to a breach of this limited warranty.</p>
+                        <p>1. <b>Written Notice</b></p>
+                        <p>The Buyer must submit a written notice containing:</p>
+                        <ul>
+                            <li>Details sufficient to identify the Buyer.</li>
+                            <li>All obtained information about the time, place ,and circumstances of the claim.</li>
+                            <li>Supporting documentation, including <b>video and/or photographs</b> showing evidence of perforation due to manufacturing defects.</li>
+                        </ul>
+                        <p>2. <b>Supporting Records</b></p>
+                        <p>Records must include, at a minimum:</p>
+                        <ul>
+                            <li>Date and place of purchase.</li>
+                            <li>Dealer/distributor details.</li>
+                            <li>Company’s invoice, dealer’s invoice to end customer and any other information requested by the Company.</li>
+                        </ul>
+                        <p>3. <b>Product Inspection Access</b></p>
+                        <ul>
+                            <li>The Buyer must arrange access to the product during normal business hours for inspection by the Company or its appointed agency.</li>
+                            <li>The Buyer shall ensure that the product is available for inspection to determine the root cause of perforation.</li>
+                            <li>The Buyer must also provide the Company access to any personnel or additional information relevant to the claim.</li>
+                        </ul>
+                        <p>4. <b>Payment Condition</b></p>
+                        <p>It is a condition of this warranty that the <b>Buyer has fully paid the contract price</b> including taxes for the product.</p>
+
+                        <p><b>Warranty Fulfillment Timeline</b></p>
+                        <p>Upon strict compliance with the claim requirements, the company will proceed to repair or replace the product within 90 days of receiving all necessary documentation and completing an inspection to determine the root cause.</p>
+                        <p>If the Company repairs or replaces the product, the warranty will be considered fulfilled and subsequently terminated. The Company may choose to repair by painting the defective area of the product as per mutual discussion with buyer. The Company’s decision regarding the claim is final and binding on the Buyer.</p>
+                        <p><b>Entire understanding:</b></p>
+                        <p>Any and all representations, promises, warranties or statements by the Company’s agents or personnel that varies, conflicts, contradicts or inconsistent in any way from the terms of written limited warranty stipulated here under, shall be given no force or effect and shall be deemed null and void. Any such representations, promises, warranties or statements do not constitute warranties, shall not be relied upon by the buyer and are not part of this limited warranty or of the contract for sale of the Product between the Company and buyer. This limited warranty shall be deemed to be a part of the contract of sale between the Company and buyer for the Products old by the Company to the buyer. The entire agreement and understanding between the Company and the buyer with respect to Product is embodied in this writing.This writing constitutes the final expression of the parties’ agreement with respect to warranties and is a complete and exclusive statement of the terms of that agreement</p>
+                        <p><b>Warranty Non-Transferability</b></p>
+                        <p>This Limited Warranty is issued solely to the original Buyer and is non-transferable and non-assignable .If the Buyer becomes insolvent, declares bankruptcy, makes an assignment for the benefit of creditors, or discontinues regular business operations for any reason ,this warranty shall immediately become null and void with no further legal effect.</p>
+                        <p><b>Non-Waiver of Rights</b></p>
+                        <p>Any decision by the Company not to exercise its rights or to forgo enforcing any term or condition under this warranty, whether in a single instance or a series of instances, does not constitute a waiver of the Company’s rights. The Company retains the full right to enforce all terms and conditions of this warranty, both before and after any such instance, and no action or inaction by the Company shall alter or waive the rights set forth in this agreement.</p>
+                        <p><b>Governing Law and Jurisdiction</b></p>
+                        <p>This warranty, along with the rights and obligations of both the Company and Buyer, shall be governed by and construed in accordance with the laws of India, without reference to conflict-of-law principles. The parties agree that any disputes will be subject to the exclusive jurisdiction of the courts located in Guwahati (Assam), India.</p>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="agree-btn" data-bs-dismiss="modal">ACCEPT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- T&C Modal Ends Here -->
 
 
     <!-- Footer Starts Here -->
