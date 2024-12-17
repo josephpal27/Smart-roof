@@ -58,6 +58,10 @@
     width: 32%;
     margin-bottom: 1.4rem;
 }
+.warranty form #multiple-input-2 .box{
+    width: 49%;
+    margin-bottom: 1.4rem;
+}
 .warranty form .multiple-input .box select{
     color: rgb(99, 99, 99);
 }
