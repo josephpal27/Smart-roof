@@ -117,28 +117,30 @@
 
     <!-- Warranty Form Starts Here -->
     <section class="warranty container-xl">
-        <form>
-            <!-- <input type="hidden" name="access_key" value="9ae99fce-f6f9-4a38-ab5b-7caafb88fce6"> -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="245e7c90-69f1-42e8-8445-5988213acaf0">
+             <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
             <div class="input-box">
                 <p>Full Name <span>*</span></p>
-                <input type="text" name="name" placeholder="Enter Full Name" required>
+                <input type="text" name="Name" placeholder="Enter Full Name" required>
             </div>
             <div class="input-box">
                 <p>Email <span>*</span></p>
-                <input type="email" name="email" placeholder="Enter Email" required>
+                <input type="email" name="Email" placeholder="Enter Email" required>
             </div>
             <div class="input-box">
                 <p>Phone Number <span>*</span></p>
-                <input type="number" name="phone" placeholder="Enter Phone Number" required>
+                <input type="number" name="Phone" placeholder="Enter Phone Number" required>
             </div>
             <div class="multiple-input">
                 <div class="box">
                     <p>Dealer Name <span>*</span></p>
-                    <input type="text" name="dealer_name" placeholder="Enter Dealer Name" required>
+                    <input type="text" name="Dealer Name" placeholder="Enter Dealer Name" required>
                 </div>
                 <div class="box">
                     <p>Select State <span>*</span></p>
-                    <select name="state" required>
+                    <select name="State" required>
                         <option value="" disabled selected>Select State</option>
                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                         <option value="Assam">Assam</option>
@@ -151,13 +153,13 @@
                 </div>
                 <div class="box">
                     <p>Enter District <span>*</span></p>
-                    <input type="text" name="district" placeholder="Enter District" required>
+                    <input type="text" name="District" placeholder="Enter District" required>
                 </div>
             </div>
             <div class="multiple-input" id="multiple-input-2">
                 <div class="box">
                     <p>Select Product <span>*</span></p>
-                    <select name="product" required>
+                    <select name="Product" required>
                         <option value="" disabled selected>Select Product</option>
                         <option value="Profilia">Profilia</option>
                         <option value="Clad">Clad</option>
@@ -166,17 +168,17 @@
                 </div>
                 <div class="box">
                     <p>Date of Purchase <span>*</span></p>
-                    <input type="date" name="purchase_date" placeholder="Enter Purchase Date" required>
+                    <input type="date" name="Purchase Date" placeholder="Enter Purchase Date" required>
                 </div>
             </div>
             <div class="input-box">
                 <p>Upload Invoice <span>*</span></p>
-                <input type="file" name="invoice" required>
+                <input type="file" name="Invoice" required>
             </div>
             <div class="input-box" id="checkbox">
                 <span>
                     <!-- Checkbox to open modal -->
-                    <input type="checkbox" id="terms-checkbox" name="check">
+                    <input type="checkbox" id="terms-checkbox" name="Check">
                 </span>
                 <p>I accept Terms & Conditions</p>
             </div>
