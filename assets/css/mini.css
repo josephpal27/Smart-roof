@@ -1,0 +1,43 @@
+/* Features Cards Start Here */
+.colors-head{
+    padding: 0;
+}
+.colors-head h1{
+    font-size: 2.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.feature-cards-row{
+    justify-content: flex-start;
+}
+.feature-cards-row .feature-card{
+    padding: 2.5rem 0.5rem;
+    color: #fff;
+}
+.feature-cards-row #seco-red{
+    background-color: #d71f29;
+}
+.feature-cards-row #env-green{
+    background-color: #0d743d;
+}
+.feature-cards-row #pepsi-blue{
+    background-color: #0d2458;
+}
+
+@media screen and (max-width: 576px) {
+    .colors-head{
+        padding: 0 0.5rem 0.5rem 0.5rem;
+    }
+    .colors-head h1{
+        font-size: 1.3rem;
+    }
+}
+/* Features Cards End Here */
+
+/* Technical Specifications Section Start Here */
+.technical-desc table{
+    border:1px solid #cccccc;
+}
+/* Technical Specifications Section End Here */
