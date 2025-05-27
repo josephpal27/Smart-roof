@@ -12,7 +12,7 @@
 .feature-cards-row{
     justify-content: flex-start;
 }
-.feature-cards-row .feature-card{
+.color-cards-row .feature-card{
     padding: 2.5rem 0.5rem;
     color: #fff;
 }
