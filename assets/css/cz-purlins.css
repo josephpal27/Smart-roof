@@ -40,3 +40,52 @@
     font-size: 1.1rem;
 }
 /* Purlins Highlight Ends */
+
+
+/* Purlins Features Start */
+.purlins-features{
+    padding: 4rem 0;
+}
+.purlins-features h3{
+    font-size: 2.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.purlins-features-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.purlins-features-row .feature-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 1.7rem;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+.purlins-features-row .feature-box:hover{
+    transform: translateY(-12px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.purlins-features-row .feature-box img{
+    width: 70px;
+    margin-top: 1rem;
+}
+.purlins-features-row .feature-box span{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.5rem;
+    display: block;
+}
+/* Purlins Features End */
