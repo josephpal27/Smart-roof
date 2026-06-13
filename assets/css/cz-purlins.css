@@ -44,7 +44,7 @@
 
 /* Purlins Features Start */
 .purlins-features{
-    padding: 4rem 0;
+    padding: 4rem 0 3rem 0;
 }
 .purlins-features h3{
     font-size: 2.3rem;
@@ -89,3 +89,141 @@
     display: block;
 }
 /* Purlins Features End */
+
+/* Purlins Applications Start */
+.purlins-apps h4{
+    font-size: 2.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.purlins-apps .apps-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.purlins-apps .apps-content{
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 4%;
+}
+.purlins-apps .apps-content .box{
+    width: 30%;
+    margin-bottom: 0.3rem;
+}
+.purlins-apps .apps-content .box span{
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.purlins-apps .apps-content .box ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+.purlins-apps .apps-content .box li{
+    position: relative;
+    padding-left: 35px;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+.purlins-apps .apps-content .box li::before {
+    content: "\f00c"; /* Font Awesome check icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #0166fe;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+.purlins-apps .apps-image{
+    width: 32%;
+}
+.purlins-apps .apps-image img{
+    width: 100%;
+}
+/* Purlins Applications End */
+
+/* Technical Specifications Section Start Here */
+.technical{
+    padding: 4rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.technical h5{
+     font-size: 2.3rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.technical-right{
+    width: 31%;
+}
+.technical-left{
+    width: 63%;
+}
+.technical-desc{
+    margin-top: 2rem;
+}
+.technical-desc h5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.technical-desc span i{
+    background-color: #0166fe;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 3px;
+    margin-right: 8px;
+    font-size: 1rem;
+}
+.technical-desc span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.technical-right{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.technical-right img{
+    width: 100%;
+}
+
+.technical-desc table{
+    border: 1px solid #cccccc;
+}
+
+@media screen and (max-width: 576px) {
+    .technical{
+        padding: 2rem 0.5rem 3rem 0.5rem;
+        flex-direction: column-reverse;
+    }
+    .technical-desc h5{
+        flex-direction: column;
+    }
+    .technical-desc span i{
+        padding: 3px 4px;
+        margin-right: 3px;
+        font-size: 0.9rem;
+    }
+    .technical-desc span{
+        font-size: 1rem;
+    }
+    .technical-desc #ans{
+        margin-left: 2rem;
+    }
+}
+/* Technical Specifications Section End Here */
