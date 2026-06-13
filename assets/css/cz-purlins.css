@@ -90,6 +90,7 @@
 }
 /* Purlins Features End */
 
+
 /* Purlins Applications Start */
 .purlins-apps h4{
     font-size: 2.3rem;
@@ -152,6 +153,7 @@
     width: 100%;
 }
 /* Purlins Applications End */
+
 
 /* Technical Specifications Section Start Here */
 .technical{
@@ -227,3 +229,54 @@
     }
 }
 /* Technical Specifications Section End Here */
+
+
+/* Purlin Details Start */
+.purlin-details{
+    padding: 2rem 0;
+}
+.purlin-details-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#purlin-details-row-2{
+    flex-direction: row-reverse;
+    margin-bottom: 0;
+}
+.purlin-details-row .details-image{
+    width: 42%;
+    position: relative;
+}
+.purlin-details-row .details-image img{
+    width: 100%;
+}
+.purlin-details-row .details-image .blue-layer{
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: #0166feca;
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+}
+#purlin-details-row-2 .blue-layer{
+    left: -2rem;
+}
+.purlin-details-row .details-content{
+    width: 50%;
+}
+.purlin-details-row h6{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2rem;
+    color: #0166fe;
+}
+.purlin-details-row p{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+/* Purlin Details End */
