@@ -301,22 +301,37 @@
 
 @media screen and (max-width: 768px) {
     .technical{
-        padding: 2rem 0.5rem 3rem 0.5rem;
+        padding: 3rem 1rem 2rem 1rem;
+        flex-wrap: wrap;
         flex-direction: column-reverse;
+    }
+    .technical h5{
+        font-size: 1.5rem;
+    }
+    .technical-right{
+        width: 100%;
+    }
+    .technical-left{
+        width: 100%;
+    }
+    .technical-desc{
+        margin-top: 1rem;
     }
     .technical-desc h5{
         flex-direction: column;
+        margin-bottom: 0.9rem;
     }
     .technical-desc span i{
-        padding: 3px 4px;
-        margin-right: 3px;
-        font-size: 0.9rem;
+        padding: 5px 6px;
+        margin-right: 7px;
+        font-size: 0.8rem;
     }
     .technical-desc span{
         font-size: 1rem;
     }
-    .technical-desc #ans{
-        margin-left: 2rem;
+    .technical-right img{
+        width: 100%;
+        margin-top: 1rem;
     }
 }
 /* Technical Specifications Section End Here */
@@ -370,6 +385,43 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+    .purlin-details{
+        padding: 1.5rem 0;
+        overflow: hidden;
+    }
+    .purlin-details-row{
+        flex-direction: column;
+        margin-bottom: 1.3rem;
+    }
+    #purlin-details-row-2{
+        flex-direction: column;
+    }
+    .purlin-details-row .details-image{
+        width: 100%;
+    }
+    .purlin-details-row .details-image .blue-layer{
+        width: 25%;
+        bottom: 0.5rem;
+        right: 0.5rem;
+    }
+    #purlin-details-row-2 .blue-layer{
+        left: 0.5rem;
+    }
+    .purlin-details-row .details-content{
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0 1rem;
+    }
+    .purlin-details-row h6{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .purlin-details-row p{
+        font-size: 0.9rem;
+    }
+}
 /* Purlin Details End */
 
 
@@ -421,6 +473,10 @@
 .table-header div:nth-child(3),
 .table-row div:nth-child(3) {
     border-left: 1px solid #bdbdbd;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Full Features End */
 
