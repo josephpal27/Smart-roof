@@ -17,6 +17,20 @@
     font-family: "Montserrat", sans-serif;
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .purlins-desc{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .purlins-desc h2{
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+    .purlins-desc p{
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+}
 /* Purlins Desc Ends */
 
 
@@ -38,6 +52,10 @@
     font-family: "Montserrat", sans-serif;
     display: block;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Purlins Highlight Ends */
 
