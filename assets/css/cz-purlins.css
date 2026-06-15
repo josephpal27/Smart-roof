@@ -476,7 +476,32 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .full-features {
+        padding: 0.5rem 1rem 2rem;
+    }
+    .features-wrapper {
+        flex-direction: column;
+        gap: 0;
+    }
+    .features-content h6 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .features-content h6 br{
+        display: none;
+    }
+    .table-header,
+    .table-row {
+        grid-template-columns: 100px 1fr 1fr;
+    }
+    .table-header div {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .table-row div {
+        padding: 12px 10px;
+        font-size: 0.75rem;
+    }
 }
 /* Full Features End */
 
@@ -523,7 +548,6 @@
 .purlin-table {
     width: 100%;
     border-collapse: collapse;
-    /* background: #005dc0; */
     color: #fff;
     text-align: center;
     overflow: hidden;
@@ -565,5 +589,56 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .purlin-tables{
+        margin-top: 1.5rem;
+        padding: 1.5rem 0;
+        overflow: hidden;
+    }
+    .purlin-table-row{
+        flex-direction: column-reverse;
+    }
+    .purlin-table-row .table-image{
+        width: 100%;
+    }
+    .purlin-table-row .table-image .layer{
+        width: 100%;
+        height: 10%;
+        background-color: #004dc2ae;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .purlin-table-row .table-content{
+        width: 100%;
+    }
+    .purlin-table-row .table-content h6{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .purlin-table-wrapper{
+        overflow-x: scroll;
+    }
+    .purlin-table th,
+    .purlin-table td {
+        border: 1.5px solid #ffffff;
+        padding: 10px 10px;
+        font-size: 0.8rem;
+    }
+    .purlin-table thead tr:first-child th {
+        padding: 12px;
+    }
+    .purlin-table thead tr:last-child th {
+        white-space: nowrap;
+    }
+
+    .purlin-table-row .table-content p{
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
 }
 /* Purlin Tables End */
