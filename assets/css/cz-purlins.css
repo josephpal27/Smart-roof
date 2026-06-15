@@ -210,6 +210,39 @@
 .purlins-apps .apps-image img{
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .purlins-apps h4{
+        font-size: 1.5rem;
+    }
+    .purlins-apps .apps-content{
+        width: 100%;
+        margin-top: 1rem;
+        gap: 0;
+    }
+    .purlins-apps .apps-content .box{
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .purlins-apps .apps-content .box span{
+        font-size: 1rem;
+    }
+    .purlins-apps .apps-content .box ul{
+        margin-top: 1rem;
+    }
+    .purlins-apps .apps-content .box li{
+        padding-left: 35px;
+        font-size: 0.9rem;
+    }
+    .purlins-apps .apps-content .box li::before {
+        padding: 3px 6px;
+        font-size: 0.7rem;
+    }
+    .purlins-apps .apps-image{
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}
 /* Purlins Applications End */
 
 
@@ -266,7 +299,7 @@
     border: 1px solid #cccccc;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .technical{
         padding: 2rem 0.5rem 3rem 0.5rem;
         flex-direction: column-reverse;
